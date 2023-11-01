@@ -1,0 +1,181 @@
+
+$off_white: #ececec;
+$headingsize: 40px;
+
+section{
+    padding: 70px 0px;
+
+    h3 {
+        font-size: $headingsize;
+
+    }
+
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1%;
+    padding: 15px;
+    img{
+        width: 70px;
+        height: 50px;
+        border-radius: 15%; 
+    overflow: hidden;
+    margin: 0 auto; 
+    }
+
+    
+
+    h1 {
+        font-size: $headingsize;
+    }
+}
+
+
+.menu {
+    
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      
+
+        li {
+            a {
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                 border: #0e0101;
+                color: #0e0101;
+                padding: 10px; 
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+$background-image: url('cafe-image1.jpg');
+
+
+#home {
+    background-image: $background-image;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+
+    h2 {
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    }
+}
+
+.menu0{
+    background-color: $off_white;
+    h1{
+        text-align: center;
+       
+        
+    }
+    .menu1{
+        display: flex;
+        margin: 5%;
+       .container{
+        margin-left: 3%;
+       }
+        
+       
+
+    }
+}
+
+.us{
+    background-color: bisque;
+    h1{
+        text-align: center;
+        margin: 2%;
+        font-size: $headingsize;
+    }
+    .us1{
+    .card{
+        margin: auto;
+        .img-fluid {
+height: 200px;
+width: fit-content;
+        }
+    }
+     
+    }
+    .us3{
+        .img-thumbnail{
+            width: auto;
+            height: 200px;
+            
+        }
+    }
+}
+.section{
+    background-color: $off_white;
+    .Contact1{ 
+        h2{
+            text-align: center;
+            font: bold;
+            font-size: $headingsize;
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .contact-form{
+            text-align: center;
+            h1{
+                font: bold;
+            }
+            .mb-3 {
+                text-shadow: #000;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+
+.footer{
+    background-color: rgb(115, 94, 94);
+    h1{
+        color: #ececec;
+        font-weight: bold;
+    }
+    .Social{
+        display: flex;
+        padding: 3%;
+        margin-left: 20%;
+        p{
+            margin: 2%;
+        }
+    }
+    .footer2{
+        text-align: center;
+    }
+}
+
+
+
+  
+ 
+  

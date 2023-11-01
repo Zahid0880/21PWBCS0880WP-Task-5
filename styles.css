@@ -1,0 +1,134 @@
+section {
+  padding: 70px 0px;
+}
+section h3 {
+  font-size: 40px;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1%;
+  padding: 15px;
+}
+.header img {
+  width: 70px;
+  height: 50px;
+  border-radius: 15%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  border: #0e0101;
+  color: #0e0101;
+  padding: 10px;
+}
+
+#home {
+  background-image: url("cafe-image1.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+}
+#home h2 {
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+#home p {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+
+.menu0 {
+  background-color: #ececec;
+}
+.menu0 h1 {
+  text-align: center;
+}
+.menu0 .menu1 {
+  display: flex;
+  margin: 5%;
+}
+.menu0 .menu1 .container {
+  margin-left: 3%;
+}
+
+.us {
+  background-color: bisque;
+}
+.us h1 {
+  text-align: center;
+  margin: 2%;
+  font-size: 40px;
+}
+.us .us1 .card {
+  margin: auto;
+}
+.us .us1 .card .img-fluid {
+  height: 200px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.us .us3 .img-thumbnail {
+  width: auto;
+  height: 200px;
+}
+
+.section {
+  background-color: #ececec;
+}
+.section .Contact1 h2 {
+  text-align: center;
+  font: bold;
+  font-size: 40px;
+}
+.section .Contact1 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section .Contact1 .contact-form {
+  text-align: center;
+}
+.section .Contact1 .contact-form h1 {
+  font: bold;
+}
+.section .Contact1 .contact-form .mb-3 {
+  text-shadow: #000;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: rgb(115, 94, 94);
+}
+.footer h1 {
+  color: #ececec;
+  font-weight: bold;
+}
+.footer .Social {
+  display: flex;
+  padding: 3%;
+  margin-left: 20%;
+}
+.footer .Social p {
+  margin: 2%;
+}
+.footer .footer2 {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
